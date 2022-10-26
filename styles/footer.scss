@@ -1,0 +1,17 @@
+.footer {
+    /* margin-top: auto; */
+    position: absolute;
+    bottom: 0;
+}
+.footer__items {
+    display: flex;
+}
+.footer__item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer__small{
+    small {
+        text-align: center;
+    }
+}

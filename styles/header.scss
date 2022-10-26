@@ -1,0 +1,27 @@
+.header {
+    padding: 5px 0 5px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.header__nav-items {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+}
+.header__nav-item {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: larger;
+}
+.header__brand {
+    display: flex;
+    align-items: center;
+}
+.header__brand-logo {
+    align-items: center;
+}
+.header__brand-title {
+    margin-left: 28px;
+    font-size: 30px
+}

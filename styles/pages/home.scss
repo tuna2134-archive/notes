@@ -1,0 +1,35 @@
+@import "../_breakpoint";
+@import "../_media";
+
+.home__list {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home__list-item {
+    border: solid;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 120px;
+    height: 120px;
+    
+    @include mq(md) {
+        margin-bottom: 2px;
+    }
+}
+
+.home__list-link {
+    font-weight: bold;
+}
+
+.home__list-date {
+    text-align: center;
+    font-size: 12px;
+}
