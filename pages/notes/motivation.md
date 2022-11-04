@@ -29,4 +29,4 @@ Discord botを作るモチベが本当に無くなりました。
 
 ## FAQ
 
-mc-fdc@mail.mc-fdc.comにメールを送信すると、答えを返します。
+mc-fdc@mc-fdc.comにメールを送信すると、答えを返します。
