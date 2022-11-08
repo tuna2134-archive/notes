@@ -1,6 +1,7 @@
 import Seo from '../components/seo'
 import { promises as fs } from 'fs'
 import matter from 'gray-matter'
+import { useEffect } from 'react'
 
 import { MetaType } from '../types/note'
 import dayjs from 'dayjs'
@@ -20,6 +21,9 @@ type Props = {
 }
 
 export default function Home({ metas }: Props) {
+    useEffect(() => {
+        import("zenn-embed-elements")
+    }, [])
     return (
         <>
             <Seo title="Home" description="ホーム" />
