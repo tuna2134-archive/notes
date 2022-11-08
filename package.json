@@ -17,6 +17,7 @@
     "sass": "^1.55.0",
     "sharp": "^0.31.1",
     "zenn-content-css": "^0.1.131",
+    "zenn-embed-elements": "^0.1.132",
     "zenn-markdown-html": "^0.1.131"
   },
   "devDependencies": {
