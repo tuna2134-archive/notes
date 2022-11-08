@@ -22,7 +22,7 @@ export default function Footer() {
         ))}
       </div>
       <p className="footer__small">
-        <small>&copy; tuna2134 2022</small>
+        <small>&copy; 2022 tuna2134</small>
       </p>
     </footer>
   );
