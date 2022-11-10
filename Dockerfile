@@ -15,6 +15,7 @@ WORKDIR app
 COPY --from=build /build/node_modules ./node_modules
 COPY --from=build /build/.next ./.next
 COPY --from=build /build/public ./public
+COPY --from=build /build/pages ./pages
 COPY package.json yarn.lock next.config.js .
 
 EXPOSE 3000
