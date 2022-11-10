@@ -12,8 +12,8 @@ FROM node:16
 
 WORKDIR app
 
-COPY --from=build /build/node_modules .
-COPY --from=build /build/.next .
+COPY --from=build /build/node_modules ./node_modules
+COPY --from=build /build/.next ./next
 COPY --from=build /build/public ./public
 COPY package.json yarn.lock next.config.js .
 
