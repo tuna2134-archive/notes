@@ -12,6 +12,10 @@ const items = [
   {
     name: "Privacy policy",
     link: "/privacy-policy",
+  },
+  {
+    name: "Contact",
+    link: "/contact",
   }
 ];
 

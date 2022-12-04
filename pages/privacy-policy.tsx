@@ -4,16 +4,17 @@ export default function privacyPolicy() {
   return (
     <>
       <Seo title="Privacy Policy" description="プライバシーポリシー" />
+      <h2>プライバシーポリシー</h2>
       <div className="privacy-policy">
         <div className="privacy-policy__item">
-          <p className="privacy-policy__title">個人情報利用目的について</p>
+          <h3 className="privacy-policy__title">個人情報利用目的について</h3>
           <p className="privacy-policy__text">
             notes(以下、当サイト)は、お問い合わせやコメント投稿の際に氏名・メールアドレス等の個人情報を入力いただく場合があります。
             取得した個人情報は、必要な連絡のみに利用させていただくもので、これらの目的以外では利用いたしません。
           </p>
         </div>
         <div className="privacy-policy__item">
-          <p className="privacy-policy__title">個人情報の第三者開示について</p>
+          <h3 className="privacy-policy__title">個人情報の第三者開示について</h3>
           <p className="privacy-policy__text">
             取得した個人情報は適切に管理し、以下に該当する場合を除いて第三者に開示することはありません。<br />
             ・本人の同意が得られた場合 <br />
@@ -21,7 +22,7 @@ export default function privacyPolicy() {
           </p>
         </div>
         <div className="privacy-policy__item">
-          <p className="privacy-policy__title">Cookieの使用について</p>
+          <h3 className="privacy-policy__title">Cookieの使用について</h3>
           <p className="privacy-policy__text">
             当サイトでは、Googleなどの第三者配信事業者がCookieを使用して、広告を配信しております。<br />
             広告は主に、ユーザーの興味に応じたコンテンツを表示するために使用しております。
@@ -31,7 +32,7 @@ export default function privacyPolicy() {
           </p>
         </div>
         <div className="privacy-policy__item">
-          <p className="privacy-policy__title">免責事項</p>
+          <h3 className="privacy-policy__title">免責事項</h3>
           <p className="privacy-policy__text">
             当サイトは、掲載内容によって生じた損害に対する一切の責任を負いません。<br />
             各コンテンツでは、できる限り正確な情報提供を心がけておりますが、正確性や安全性を保証するものではありません。<br />
@@ -39,14 +40,14 @@ export default function privacyPolicy() {
           </p>
         </div>
         <div className="privacy-policy__item">
-          <p className="privacy-policy__title">著作権</p>
+          <h3 className="privacy-policy__title">著作権</h3>
           <p className="privacy-policy__text">
-            当サイトに掲載されている文章・画像の著作権は、運営者に帰属しています。
+            当サイトに掲載されている文章・画像の著作権は、運営者に帰属しています。<br />
             法的に認められている引用の範囲を超えて、無断で転載することを禁止します。
           </p>
         </div>
         <div className="privacy-policy__item">
-          <p className="privacy-policy__title">プライバシーポリシーの変更</p>
+          <h3 className="privacy-policy__title">プライバシーポリシーの変更</h3>
           <p className="privacy-policy__text">
             当サイトは、必要に応じてプライバシーポリシーを変更することができます。<br />
             変更後のプライバシーポリシーは、当サイトに掲載した時点から効力を生じるものとします。
