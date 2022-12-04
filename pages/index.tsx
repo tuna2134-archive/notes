@@ -34,8 +34,8 @@ export default function Home({ metas }: Props) {
           {metas.map((meta) => (
             <li key={meta.title} className="home__list-item">
               <div>
-                <Link href={`/notes/${meta.slug}`}>
-                  <a className="home__list-link">{meta.title}</a>
+                <Link href={`/notes/${meta.slug}`} className="home__list-link">
+                  {meta.title}
                 </Link>
                 <p className="home__list-date">{meta.when}</p>
               </div>

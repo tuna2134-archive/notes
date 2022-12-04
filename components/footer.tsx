@@ -16,8 +16,8 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__items">
         {items.map((item) => (
-          <Link href={item.link} key={item.name}>
-            <a className="footer__item">{item.name}</a>
+          <Link href={item.link} key={item.name} className="footer__item">
+            {item.name}
           </Link>
         ))}
       </div>
