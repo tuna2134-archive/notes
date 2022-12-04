@@ -13,6 +13,8 @@ export default class MyDocument extends Document {
             src="https://embed.zenn.studio/js/listen-embed-event.js"
             async
           />
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8715826596324259"
+            crossOrigin="anonymous"></script>
         </Head>
         <body>
           <Main />
