@@ -9,6 +9,10 @@ const items = [
     name: "Introduce",
     link: "/introduce",
   },
+  {
+    name: "Privacy policy",
+    link: "/privacy-policy",
+  }
 ];
 
 export default function Footer() {
