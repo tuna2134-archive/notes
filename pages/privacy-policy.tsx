@@ -38,6 +38,24 @@ export default function privacyPolicy() {
             また、リンク先の他サイトで提供される情報・サービスについても、責任を負いかねますのでご了承ください。
           </p>
         </div>
+        <div className="privacy-policy__item">
+          <p className="privacy-policy__title">著作権</p>
+          <p className="privacy-policy__text">
+            当サイトに掲載されている文章・画像の著作権は、運営者に帰属しています。
+            法的に認められている引用の範囲を超えて、無断で転載することを禁止します。
+          </p>
+        </div>
+        <div className="privacy-policy__item">
+          <p className="privacy-policy__title">プライバシーポリシーの変更</p>
+          <p className="privacy-policy__text">
+            当サイトは、必要に応じてプライバシーポリシーを変更することができます。<br />
+            変更後のプライバシーポリシーは、当サイトに掲載した時点から効力を生じるものとします。
+          </p>
+        </div>
+
+        <div className="privacy-policy__date">
+          <p>2022年12月4日制定</p>
+        </div>
       </div>
     </>
   )
