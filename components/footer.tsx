@@ -30,7 +30,7 @@ export default function Footer() {
         ))}
       </div>
       <p className="footer__small">
-        <small>&copy; 2022 tuna2134</small>
+        <small>&copy; 2023 tuna2134</small>
       </p>
     </footer>
   );
