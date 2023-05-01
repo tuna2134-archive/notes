@@ -1,4 +1,4 @@
-FROM node:18 AS builder
+FROM node:20 AS builder
 
 WORKDIR /builder
 
@@ -8,7 +8,7 @@ RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build
 
-FROM node:18-slim
+FROM node:20-slim
 
 ENV NODE_ENV production
 WORKDIR /app
