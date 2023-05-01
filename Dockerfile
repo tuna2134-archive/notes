@@ -10,6 +10,7 @@ RUN yarn build
 
 FROM node:18-slim
 
+ENV NODE_ENV production
 WORKDIR /app
 
 COPY --from=builder /builder/next.config.js ./
