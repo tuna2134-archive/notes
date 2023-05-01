@@ -7,6 +7,7 @@ RUN yarn install --frozen-lockfile
 
 COPY . .
 RUN yarn build
+RUN ls -a
 
 FROM node:18-slim
 
