@@ -14,7 +14,6 @@ WORKDIR /app
 
 COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/.next/static ./.next/static
 COPY --from=builder /app/.next/standalone ./
 
 EXPOSE 3000
