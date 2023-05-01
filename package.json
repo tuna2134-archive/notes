@@ -21,7 +21,7 @@
     "zenn-markdown-html": "^0.1.131"
   },
   "devDependencies": {
-    "@types/node": "18.8.4",
+    "@types/node": "18.16.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "eslint": "8.25.0",
