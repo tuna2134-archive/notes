@@ -8,8 +8,6 @@ import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import Link from "next/link";
 
-dayjs.extend(relativeTime);
-
 interface MetaTypeExtended extends MetaType {
   slug: string;
   when: string;
@@ -22,6 +20,7 @@ type Props = {
 export default function Home({ metas }: Props) {
   useEffect(() => {
     import("zenn-embed-elements");
+    dayjs.extend(relativeTime);
   }, []);
   return (
     <>
@@ -37,7 +36,7 @@ export default function Home({ metas }: Props) {
                 <Link href={`/notes/${meta.slug}`} className="home__list-link">
                   {meta.title}
                 </Link>
-                <p className="home__list-date">{meta.when}</p>
+                <p className="home__list-date">{dayjs(meta.date).fromNow()}</p>
               </div>
             </li>
           ))}
