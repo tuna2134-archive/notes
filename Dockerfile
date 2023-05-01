@@ -7,15 +7,14 @@ RUN yarn install --frozen-lockfile
 
 COPY . .
 RUN yarn build
-RUN ls -a .next
 
 FROM node:18-slim
 
 WORKDIR /app
 
-COPY --from=builder /app/next.config.js ./
-COPY --from=builder /app/public ./public
-COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /builder/next.config.js ./
+COPY --from=builder /builder/public ./public
+COPY --from=builder /builder/.next/standalone ./
 
 EXPOSE 3000
 CMD ["node", "server.js"]
