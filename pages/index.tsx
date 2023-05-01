@@ -36,7 +36,7 @@ export default function Home({ metas }: Props) {
                 <Link href={`/notes/${meta.slug}`} className="home__list-link">
                   {meta.title}
                 </Link>
-                <p className="home__list-date">{dayjs(meta.date).fromNow()}</p>
+                <p className="home__list-date">{meta.when}</p>
               </div>
             </li>
           ))}
