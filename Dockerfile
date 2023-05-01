@@ -1,6 +1,6 @@
-FROM node:16
+FROM node:18 AS builder
 
-WORKDIR /app
+WORKDIR /builder
 
 COPY yarn.lock package.json .
 RUN yarn install --frozen-lockfile
@@ -8,5 +8,14 @@ RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build
 
+FROM node:18-slim
+
+WORKDIR /app
+
+COPY --from=builder /app/next.config.js ./
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/static ./.next/static
+COPY --from=builder /app/.next/standalone ./
+
 EXPOSE 3000
-CMD ["node_modules/.bin/next", "start"]
+CMD ["node", "server.js"]
