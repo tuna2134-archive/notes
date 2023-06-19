@@ -2205,9 +2205,9 @@ postcss@8.4.14:
     source-map-js "^1.0.2"
 
 postcss@^8.3.11:
-  version "8.4.23"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.23.tgz#df0aee9ac7c5e53e1075c24a3613496f9e6552ab"
-  integrity sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==
+  version "8.4.24"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.24.tgz#f714dba9b2284be3cc07dbd2fc57ee4dc972d2df"
+  integrity sha512-M0RzbcI0sO/XJNucsGjvWU9ERWxb/ytp1w6dKtxTKgixdtQDq4rmx/g8W1hnaheq9jgwL/oyEdH5Bc4WwJKMqg==
   dependencies:
     nanoid "^3.3.6"
     picocolors "^1.0.0"
@@ -2855,9 +2855,9 @@ zenn-embed-elements@^0.1.132:
   integrity sha512-/yhylAPaWAHrIOtMORFnBODGY3plX3Fw2xuOtqgGCpe3TB7Gy/W+CQOHF79ErelomxAEtllKO0ynFNz03FRmRQ==
 
 zenn-markdown-html@^0.1.131:
-  version "0.1.143"
-  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.143.tgz#31054403b3706efef0970c70c1ab663c36715ea6"
-  integrity sha512-ou+VxG37iiuy0LCqwaoQpf9ZKdj0n1KevbzqnucJFz7cJGVQXHUd9C18E/OCOBrWLzVZV8JFKaKOD1a8nN8JwQ==
+  version "0.1.144"
+  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.144.tgz#13901849aa80f4f702142d855a4743155ecd3c07"
+  integrity sha512-ZT+XIQ2BC1RUXkScmPkSK7k9mY5gesWLdujoaxxrnCZjZL1ThMwDp4oCygkK+ZwLIaeArBMkZtajG40Jlca2Kw==
   dependencies:
     "@steelydylan/markdown-it-imsize" "^1.0.2"
     cheerio "1.0.0-rc.12"
